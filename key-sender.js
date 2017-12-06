@@ -1,4 +1,4 @@
-var exec = require('child_process').exec;
+var exec = window.require('child_process').exec;
 var path = require("path");
 
 module.exports = function() {
